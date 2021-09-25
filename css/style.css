@@ -52,20 +52,15 @@ a:visited {
 }
 
 /* This rule adds a nice style to our ampersands */
-span.amp {
-	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
-	font-weight: normal;
-	font-style: italic;
-}
 
 
-
-
+/*header set*/
 #header {
-	background-color: #777 ;
-	height: 100px;
+	background: #777 url('../image/headerimg.jpg');
+	height: 120px;
 }
 
+/*logo set*/
 #logo h1 {
 	font-size: 3em;
 	margin: 0 0 0 0;
@@ -87,9 +82,9 @@ span.amp {
 	color:#000;
 }
 
-
+/*menu set*/
 #menu {
-	background: #251e1e;
+	background:linear-gradient(#666,#000);
 	float: center;
 	margin: 5px 0 0 0;
 	font-size: 1.4em;
@@ -100,14 +95,26 @@ span.amp {
 #menu li {
 	display: inline-block;
 	margin: 0 0 0 0;
-	padding: 10px 20px 10px 20px;
+	padding: 10px 30px 10px 30px;
 }
+
+#menu li:hover{
+	background:linear-gradient(#000,#555);
+	text-decoration: underline;
+}
+
 
 #menu li a {
 	color: #fff;
 	text-decoration: none;
 }
 
+#homeda{
+	background:linear-gradient(#000,#555);
+	text-decoration: underline;
+}
+
+/*right article set*/
 #right {
 	float: right;
 	width: 500px;
@@ -140,6 +147,7 @@ span.amp {
 	color: #777;
 }
 
+/*left article set*/
 #left{
 	float: left;
 	width: 240px;
@@ -148,15 +156,22 @@ span.amp {
 }
 
 #left h2{
-	background-color: #000;
-	color: #fff;
-	padding: 4px;
+	padding:10px;
+	background:linear-gradient(#fff,#000);
+	color:#fff;
+	border: 3px #666 solid;
+	border-radius: 13px;
+}
+
+#leftborder{
+	padding:0.5px;
+	border: 3px #666 solid;
+	border-radius: 12.5px;
 }
 
 #leftup{
 	padding: 10px 0 10px 0;
 }
-
 
 #leftup a{
 	color: #333;
@@ -171,6 +186,7 @@ span.amp {
 	color: #000;
 	background: none;
 	padding: 20px 0 0 0;
+	border: none;
 }
 
 #leftdown a{
@@ -178,10 +194,11 @@ span.amp {
 	text-decoration:underline;
 }
 
+/*footer set*/
 #footer {
 	clear: both;
-	background: #222;
-	padding: 10px;
+	background: linear-gradient(#000,#777);
+	padding: 30px 0 10px 0;
 	border-top: 2px solid #ddd;
 	text-align: center;
 	color: #fff;
