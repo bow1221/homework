@@ -10,7 +10,7 @@ a little easier
 */
 body {
 	margin: 0 auto;
-	width: 800px;
+	width: 0 auto;
 	padding: 0;
 	background: #ffffff;
 	font-family: Helvetica, sans-serif;
@@ -73,9 +73,9 @@ span.amp {
 }
 
 #menu li a {
-	color: #fff;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
-	background: none;
+	background: rgb(29, 29, 29);
 }
 
 /*
