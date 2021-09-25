@@ -145,45 +145,44 @@ span.amp {
 	width: 240px;
 	margin: 0 0 0 0;
 	padding: 10px;
-
 }
 
-#leftup h2{
+#left h2{
 	background-color: #000;
 	color: #fff;
 	padding: 4px;
 }
 
+#leftup{
+	padding: 10px 0 10px 0;
+}
+
+
 #leftup a{
-	color: #3a3a3a;
+	color: #333;
 	text-decoration:underline;
 }
 
+#leftdown{
+	padding: 10px 0 10px 0;
+}
+
 #leftdown h2{
-	background-color: #000;
-	color: #fff;
-	padding: 4px;
+	color: #000;
+	background: none;
+	padding: 20px 0 0 0;
 }
 
 #leftdown a{
-	color: #000;
+	color: #333;
+	text-decoration:underline;
 }
-
-#link-list {
-	margin: 20px 0 0 0;
-	font-size: 1.4em;
-}
-
-#link-list li {
-	margin: 0 0 10px 0;
-}
-
 
 #footer {
 	clear: both;
-	background: #eee;
+	background: #222;
 	padding: 10px;
 	border-top: 2px solid #ddd;
 	text-align: center;
-	color: #777;
+	color: #fff;
 }
