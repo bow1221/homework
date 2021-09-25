@@ -11,8 +11,8 @@ a little easier
 body {
 	margin: 0 auto;
 	width: 0 auto;
-	padding: 10px;
-	background: #642570;
+	padding: 30px;
+	background: #ffffff;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
 	color: #333;
@@ -60,8 +60,28 @@ span.amp {
 	float: left;
 }
 
+
+#header {
+	background: rgb(185, 26, 190) url('../image/tagline_bg.gif') repeat-x;
+}
+
+#logo h1 {
+	font-size: 3em;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	text-align: left;
+	
+}
+#logo h2 {
+	font-size: 1.5em;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	text-align: left;
+}
+
 #menu {
-	float: right;
+	border: #000;
+	float: center;
 	margin: 50px 10px 0 0;
 	font-size: 1.4em;
 }
@@ -73,41 +93,8 @@ span.amp {
 }
 
 #menu li a {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
-}
-
-/*
-Because the header content is outside the wrap <div>,
-we need to use the same "margin: 0 auto" trick to center
-the layout
-*/
-#wrap {
-	clear: both;
-	margin: 0 auto;
-	padding: 10px;
-	width: 780px;
-	background: #fff;
-	border: 10px solid #5c0505;
-}
-
-#header img {
-	border: 10px solid #ccc;
-	background: rgb(185, 26, 190) url('../image/tagline_bg.gif') repeat-x;
-}
-
-#header h1 {
-	font-size: 3em;
-	margin: 10px 0 0 0;
-	padding: 10px;
-	text-align: left;
-	
-}
-#header h2 {
-	font-size: 2em;
-	margin: 10px 0 0 0;
-	padding: 10px;
-	text-align: left;
 }
 
 #content, #sidebar {
