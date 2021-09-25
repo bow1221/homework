@@ -10,14 +10,23 @@ a little easier
 */
 body {
 	margin: 0 auto;
-	width: auto ;
+	width: 800px ;
 	padding: 0;
 	background: #ffffff;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
 	color: #3a2e2e;
 }
+#wrap {
+	clear: both;
+	margin: 0 auto;
+	padding: 10px;
+	width: 780px;
+	background: #fff;
+	border: 10px solid #777;
+}
 
+/*text set*/
 h1, h2, p, ul, li {
 	margin: 0;
 	padding: 0;
@@ -32,12 +41,13 @@ ul {
 	list-style-type: none;
 }
 
+/*link set*/
 a:link {
 	color: #fffdfd;
-	background: #ffffff;
+	text-decoration: none;
 }
 a:visited {
-	color: #ff0000;
+	color: #ffffff;
 	background: #eee;
 }
 
@@ -47,32 +57,31 @@ span.amp {
 	font-weight: normal;
 	font-style: italic;
 }
-#wrap {
-	clear: both;
-	margin: 0 auto;
-	padding: 10px;
-	width: 780px;
-	background: #fff;
-	border: 10px solid #5c0505;
-}
+
+
 
 
 #header {
 	background-color: #777 ;
+	height: 100px;
 }
 
 #logo h1 {
 	font-size: 3em;
-	margin: 10px 0 0 0;
-	padding: 10px;
+	margin: 0 0 0 0;
+	padding-top: 10px;
+	padding-left: 10px;
 	text-align: left;
+	color:rgb(34, 34, 34);
 	
 }
 #logo h2 {
 	font-size: 1.5em;
-	margin: 10px 0 0 0;
-	padding: 10px;
+	margin: 0 0 0 0;
+	padding-left: 10px;
+	padding-top: 3px;
 	text-align: left;
+	color:#fff;
 }
 #black{
 	color:#000;
@@ -82,15 +91,16 @@ span.amp {
 #menu {
 	background: #251e1e;
 	float: center;
-	margin: 50px 10px 0 0;
+	margin: 5px 0 0 0;
 	font-size: 1.4em;
 	text-align: center;
 }
 
  
 #menu li {
-	display: inline;
-	margin: 0 0 0 20px;
+	display: inline-block;
+	margin: 0 0 0 0;
+	padding: 10px 20px 10px 20px;
 }
 
 #menu li a {
@@ -98,23 +108,65 @@ span.amp {
 	text-decoration: none;
 }
 
-#content, #sidebar {
-	width: 360px;
-	margin: 20px 0 20px 0;
+#right {
+	float: right;
+	width: 500px;
+	margin: 0 0 0 0;
 	padding: 10px;
 }
 
-#content {
-	float: right;
-}
-
-#content h2 {
+#right h1 {
 	font-size: 2.4em;
 	margin: 0 0 10px 0;
 }
 
-#content p {
+#right h2{
+	font-size: 1.5em;
 	margin: 0 0 10px 0;
+}
+
+#right p{
+	margin: 0 0 10px 0;
+}
+
+#right h3{
+	font-size: 1.4em;
+	text-align: right;
+	margin: 0 0 10px 0;
+	color: #447bce;
+}
+
+#right a{
+	color: #777;
+}
+
+#left{
+	float: left;
+	width: 240px;
+	margin: 0 0 0 0;
+	padding: 10px;
+
+}
+
+#leftup h2{
+	background-color: #000;
+	color: #fff;
+	padding: 4px;
+}
+
+#leftup a{
+	color: #3a3a3a;
+	text-decoration:underline;
+}
+
+#leftdown h2{
+	background-color: #000;
+	color: #fff;
+	padding: 4px;
+}
+
+#leftdown a{
+	color: #000;
 }
 
 #link-list {
