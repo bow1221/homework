@@ -34,7 +34,7 @@ ul {
 
 a:link {
 	color: #fffdfd;
-	background: #3a2e2e;
+	background: #ffffff;
 }
 a:visited {
 	color: #ff0000;
@@ -47,8 +47,15 @@ span.amp {
 	font-weight: normal;
 	font-style: italic;
 }
+#wrap {
+	clear: both;
+	margin: 0 auto;
+	padding: 10px;
+	width: 780px;
+	background: #fff;
+	border: 10px solid #5c0505;
+}
 
- 
 
 #header {
 	background-color: #777 ;
