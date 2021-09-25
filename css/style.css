@@ -51,7 +51,7 @@ span.amp {
  
 
 #header {
-	background: rgb(128 102 129)url('../image/tagline_bg.gif') repeat-x;
+	background: #777 url('../image/tagline_bg.gif') repeat-x;
 }
 
 #logo h1 {
@@ -73,10 +73,11 @@ span.amp {
 
 
 #menu {
-	background: #533b3b;
+	background: #251e1e;
 	float: center;
 	margin: 50px 10px 0 0;
 	font-size: 1.4em;
+	text-align: center;
 }
 
  
