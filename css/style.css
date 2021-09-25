@@ -60,19 +60,19 @@ span.amp {
 	float: left;
 }
 
-#nav {
+#menu {
 	float: right;
 	margin: 50px 10px 0 0;
 	font-size: 1.4em;
 }
 
  
-#nav li {
+#menu li {
 	display: inline;
 	margin: 0 0 0 20px;
 }
 
-#nav li a {
+#menu li a {
 	color: #fff;
 	text-decoration: none;
 	background: none;
@@ -94,14 +94,21 @@ the layout
 
 #header img {
 	border: 10px solid #ccc;
+	background: rgb(185, 26, 190) url('../image/tagline_bg.gif') repeat-x;
 }
 
 #header h1 {
+	font-size: 3em;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	text-align: left;
+	
+}
+#header h2 {
 	font-size: 2em;
 	margin: 10px 0 0 0;
 	padding: 10px;
-	text-align: center;
-	background: url('../image/tagline_bg.gif') repeat-x;
+	text-align: left;
 }
 
 #content, #sidebar {
