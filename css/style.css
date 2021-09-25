@@ -10,12 +10,12 @@ a little easier
 */
 body {
 	margin: 0 auto;
-	width: 0 auto;
-	padding: 30px;
+	width: auto ;
+	padding: 0;
 	background: #ffffff;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
-	color: #333;
+	color: #3a2e2e;
 }
 
 h1, h2, p, ul, li {
@@ -33,8 +33,8 @@ ul {
 }
 
 a:link {
-	color: #333;
-	background: #eee;
+	color: #fffdfd;
+	background: #3a2e2e;
 }
 a:visited {
 	color: #ff0000;
@@ -49,20 +49,9 @@ span.amp {
 }
 
  
-#masthead {
-	margin: 0 auto ;
-	margin-top: 20px;
-	width: 800px;
-	color: #fff;
-}
-
-#masthead h1 {
-	float: left;
-}
-
 
 #header {
-	background: rgb(185, 26, 190) url('../image/tagline_bg.gif') repeat-x;
+	background: rgb(128 102 129)url('../image/tagline_bg.gif') repeat-x;
 }
 
 #logo h1 {
@@ -78,9 +67,13 @@ span.amp {
 	padding: 10px;
 	text-align: left;
 }
+#black{
+	color:#000;
+}
+
 
 #menu {
-	border: #000;
+	background: #533b3b;
 	float: center;
 	margin: 50px 10px 0 0;
 	font-size: 1.4em;
