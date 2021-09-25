@@ -11,8 +11,8 @@ a little easier
 body {
 	margin: 0 auto;
 	width: 0 auto;
-	padding: 0;
-	background: #ffffff;
+	padding: 10px;
+	background: #642570;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
 	color: #333;
@@ -73,9 +73,8 @@ span.amp {
 }
 
 #menu li a {
-	color: rgb(255, 255, 255);
+	color: #000;
 	text-decoration: none;
-	background: rgb(29, 29, 29);
 }
 
 /*
@@ -139,23 +138,6 @@ the layout
 	margin: 0 0 10px 0;
 }
 
-#sidebar {
-	float: left;
-	background: #eee;
-}
-
-#sidebar h2 {
-	font-weight: bold;
-	border-bottom: 1px solid #ccc;
-	margin: 0 0 20px 0;
-	padding: 5px;
-}
-
-#port li {
-	margin: 0 10px 20px 0;
-	float: left;
-	border: 5px solid #ddd;
-}
 
 #footer {
 	clear: both;
